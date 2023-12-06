@@ -42,7 +42,7 @@ Distance:  9  40  200"""
     test_output_part_1_expected: OUTPUT_TYPE = 288
     test_output_part_2_expected: OUTPUT_TYPE = 71503
 
-    file_location: str = "python/Advent of Code/2023/Day 6/input.txt"
+    file_location: str = "Day 6/input.txt"
     input_file: list[str] = open(file_location, "r").readlines()
 
     test_output_part_1: OUTPUT_TYPE = main_part_1(test_input_parsed)
